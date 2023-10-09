@@ -1,4 +1,4 @@
-## Wikipedia Talk Network Analysis with Spark GraphX
+## Title: Analyzing Wikipedia Talk Network with GraphX
 
 ## This project uses Apache Spark's GraphX library to analyze the Wikipedia Talk network dataset by finding connected components.
 ## Tech Stack
@@ -11,7 +11,7 @@
 
 The workflow of the Project is:
 
-1. Data Loading: The project starts by loading the Wikipedia Talk network dataset from a specified file using Apache Spark's GraphLoader.
+1. Data Loading: The project starts by loading the Wikipedia Talk network dataset using Apache Spark's GraphLoader. Download dataset [here](https://snap.stanford.edu/data/wiki-Talk.html) 
 
 2. Connected Components Identification: The GraphX library is employed to identify connected components within the loaded graph.So we used connected component algorithm. This step helps in identifying distinct communities or groups of users based on their interactions in the dataset.
 
@@ -22,3 +22,9 @@ The workflow of the Project is:
 5. Top 50 Components: The top 50 connected components are selected based on their sizes. These components represent the largest and most prominent user communities within the Wikipedia Talk network.
 
 6. Displaying Results: The project concludes by displaying the IDs and sizes of the top 50 connected components. This information provides insights into the structure and composition of the Wikipedia Talk network, revealing the most significant discussion communities.
+
+## Team Members
+1. Golla Anjaiah (20bcs048@iiitdwd.ac.in)
+2. Allu Hanuma Reddy (20bcs008@iiitdwd.ac.in)
+3. Kotha Balaji (20bcs073@iiitdwd.ac.in)
+4. Erigi Vaishnavi (20bcs044@iiitdwd.ac.in
