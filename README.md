@@ -1,6 +1,6 @@
-# Wikipedia Talk Network Analysis with Spark GraphX
+## Wikipedia Talk Network Analysis with Spark GraphX
 
-# This project uses Apache Spark's GraphX library to analyze the Wikipedia Talk network dataset by finding connected components.
+## This project uses Apache Spark's GraphX library to analyze the Wikipedia Talk network dataset by finding connected components.
 ## Tech Stack
 
 - [Apache Spark](https://spark.apache.org/downloads.html): An open-source distributed computing framework.Here we are using Spark 3.5.0
